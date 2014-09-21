@@ -1,12 +1,171 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Shoes by wurh</title>
-  </head>
-  <body>
-    Hello World!
-  </body>
+    <link rel="stylesheet" type="text/css" href="js/lib/assets/css/amui.all.min.css">
+    <link rel="stylesheet" type="text/css" href="js/lib/assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lrtk.css"/>
+    <script type="text/javascript" src="js/lib/assets/js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/lib/assets/js/amui.js"></script>
+    <script type="text/javascript" src="js/lib/assets/js/amui.widget.helper.min.js"></script>
+    <script type="text/javascript" src="js/lib/assets/js/app.js"></script>
+</head>
+<body class="head-fixed">
+<!-- 头部样式 -->
+<header class="am-topbar">
+    <h1 class="am-topbar-brand">
+        <a class="index-title" href="#">ST&SAT</a>
+    </h1>
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+            data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+            class="am-icon-bars"></span></button>
+    <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
+        <ul class="am-nav am-nav-pills am-topbar-nav title-ul">
+            <li><a class="actived" href="#">首页</a></li>
+            <li><a href="#">ST&SAT</a></li>
+            <li><a href="#">FONDBERYL</a></li>
+            <li><a href="#">SAFIYA</a></li>
+            <li><a href="#">Killah</a></li>
+            <li><a href="#">69SIXTYNINE</a></li>
+            <li><a href="#">GAVAKLAS</a></li>
+            <li><a href="#">SAT MEN</a></li>
+            <li><a href="#">D:FUSE</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- 正题面板 -->
+<section class="cr-container">
+
+    <input id="select-img-1" name="radio-set-1" type="radio" class="cr-selector-img-1" checked/>
+    <label for="select-img-1" class="cr-label-img-1">1</label>
+
+    <input id="select-img-2" name="radio-set-1" type="radio" class="cr-selector-img-2"/>
+    <label for="select-img-2" class="cr-label-img-2">2</label>
+
+    <input id="select-img-3" name="radio-set-1" type="radio" class="cr-selector-img-3"/>
+    <label for="select-img-3" class="cr-label-img-3">3</label>
+
+    <input id="select-img-4" name="radio-set-1" type="radio" class="cr-selector-img-4"/>
+    <label for="select-img-4" class="cr-label-img-4">4</label>
+
+    <input id="select-img-5" name="radio-set-1" type="radio" class="cr-selector-img-5"/>
+    <label for="select-img-5" class="cr-label-img-5">5</label>
+
+    <input id="select-img-6" name="radio-set-1" type="radio" class="cr-selector-img-6"/>
+    <label for="select-img-6" class="cr-label-img-6">6</label>
+
+    <input id="select-img-7" name="radio-set-1" type="radio" class="cr-selector-img-7"/>
+    <label for="select-img-7" class="cr-label-img-7">7</label>
+
+    <input id="select-img-8" name="radio-set-1" type="radio" class="cr-selector-img-8"/>
+    <label for="select-img-8" class="cr-label-img-8">8</label>
+
+    <div class="clr"></div>
+    <div class="cr-bgimg">
+        <div>
+            <span>Slice 1 - Image 1</span>
+            <span>Slice 1 - Image 2</span>
+            <span>Slice 1 - Image 3</span>
+            <span>Slice 1 - Image 4</span>
+            <span>Slice 1 - Image 5</span>
+            <span>Slice 1 - Image 6</span>
+            <span>Slice 1 - Image 7</span>
+            <span>Slice 1 - Image 8</span>
+        </div>
+        <div>
+            <span>Slice 2 - Image 1</span>
+            <span>Slice 2 - Image 2</span>
+            <span>Slice 2 - Image 3</span>
+            <span>Slice 2 - Image 4</span>
+            <span>Slice 2 - Image 5</span>
+            <span>Slice 2 - Image 6</span>
+            <span>Slice 2 - Image 7</span>
+            <span>Slice 2 - Image 8</span>
+        </div>
+        <div>
+            <span>Slice 3 - Image 1</span>
+            <span>Slice 3 - Image 2</span>
+            <span>Slice 3 - Image 3</span>
+            <span>Slice 3 - Image 4</span>
+            <span>Slice 3 - Image 5</span>
+            <span>Slice 3 - Image 6</span>
+            <span>Slice 3 - Image 7</span>
+            <span>Slice 3 - Image 8</span>
+        </div>
+        <div>
+            <span>Slice 4 - Image 1</span>
+            <span>Slice 4 - Image 2</span>
+            <span>Slice 4 - Image 3</span>
+            <span>Slice 4 - Image 4</span>
+            <span>Slice 4 - Image 5</span>
+            <span>Slice 4 - Image 6</span>
+            <span>Slice 4 - Image 7</span>
+            <span>Slice 4 - Image 8</span>
+        </div>
+        <div>
+            <span>Slice 5 - Image 1</span>
+            <span>Slice 5 - Image 2</span>
+            <span>Slice 5 - Image 3</span>
+            <span>Slice 5 - Image 4</span>
+            <span>Slice 5 - Image 5</span>
+            <span>Slice 5 - Image 6</span>
+            <span>Slice 5 - Image 7</span>
+            <span>Slice 5 - Image 8</span>
+        </div>
+        <div>
+            <span>Slice 6 - Image 1</span>
+            <span>Slice 6 - Image 2</span>
+            <span>Slice 6 - Image 3</span>
+            <span>Slice 6 - Image 4</span>
+            <span>Slice 6 - Image 5</span>
+            <span>Slice 6 - Image 6</span>
+            <span>Slice 6 - Image 7</span>
+            <span>Slice 6 - Image 8</span>
+        </div>
+        <div>
+            <span>Slice 7 - Image 1</span>
+            <span>Slice 7 - Image 2</span>
+            <span>Slice 7 - Image 3</span>
+            <span>Slice 7 - Image 4</span>
+            <span>Slice 7 - Image 5</span>
+            <span>Slice 7 - Image 6</span>
+            <span>Slice 7 - Image 7</span>
+            <span>Slice 7 - Image 8</span>
+        </div>
+        <div>
+            <span>Slice 8 - Image 1</span>
+            <span>Slice 8 - Image 2</span>
+            <span>Slice 8 - Image 3</span>
+            <span>Slice 8 - Image 4</span>
+            <span>Slice 8 - Image 5</span>
+            <span>Slice 8 - Image 6</span>
+            <span>Slice 8 - Image 7</span>
+            <span>Slice 8 - Image 8</span>
+        </div>
+    </div>
+    <div class="cr-titles">
+        <h3><span></span><span>每个女人都有自己独特的魅力</span></h3>
+
+        <h3><span></span><span>诠释地面上3~7cm步履风光。</span></h3>
+
+        <h3><span></span><span>追求健康、舒适、浪漫</span></h3>
+
+        <h3><span></span><span>以摩登、时尚为主要路线，展示城市女孩跳跃的个性</span></h3>
+
+        <h3><span></span><span>激情、动感、时尚、精致</span></h3>
+
+        <h3><span></span><span>向往独立选择和自由奔放的型格生活</span></h3>
+
+        <h3><span></span><span>秉持时尚与品质的基调，穿越于现代都市的灵感</span></h3>
+
+        <h3><span></span><span>容东方文化的儒雅与西方文化的奔放于一身</span></h3>
+    </div>
+</section>
+</body>
 </html>
